@@ -1,0 +1,11 @@
+{
+  "name": "MEDVERSE 3D \u2014 Interactive Medical Universe",
+  "short_name": "MEDVERSE 3D",
+  "description": "Bilingual Arabic-English 3D Anatomy, Physiology, Pathology & Pharmacology Educational Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#040914",
+  "theme_color": "#06b6d4",
+  "lang": "en",
+  "dir": "ltr"
+}
