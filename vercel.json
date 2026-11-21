@@ -30,5 +30,12 @@
       "source": "/(.*)",
       "destination": "/medverse-live.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/medverse-live.html",
+      "permanent": false
+    }
   ]
 }

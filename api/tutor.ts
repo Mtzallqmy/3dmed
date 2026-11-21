@@ -1,4 +1,6 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+type VercelRequest = { method?: string; body?: any };
+type VercelResponse = { status(code: number): { json(body: any): unknown } };
+declare const process: { env: Record<string, string | undefined> };
 
 const EMERGENCY_FLAGS = [
   'chest pain', 'cannot breathe', "can't breathe", 'stroke', 'overdose', 'suicide', 'severe bleeding',
